@@ -1,6 +1,6 @@
 {
   "name": "ant-design-style-sumamry",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ant design style summary and enhance",
   "main": "index.js",
   "author": "Andy Xia",
@@ -23,16 +23,8 @@
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
-    "gulp-header": "^2.0.1",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^4.0.2",
-    "gulp-util": "^3.0.8"
-  },
-  "lint-staged": {
-    "*.{js,json,md,css}": [
-      "prettier --write",
-      "git add"
-    ]
+    "gulp-sass": "^4.0.2"
   },
   "devDependencies": {
     "node-sass": "^4.12.0"

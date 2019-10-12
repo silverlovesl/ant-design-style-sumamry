@@ -6,8 +6,6 @@ const gulp = require('gulp');
 
 // Gulp plugins
 const concat = require('gulp-concat');
-const gutil = require('gulp-util');
-const header = require('gulp-header');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 

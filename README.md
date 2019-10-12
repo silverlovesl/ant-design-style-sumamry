@@ -62,24 +62,24 @@ html { font-size: 16px; }
 
 > ## status color
 
-<h2 style="color:#1890ff">■ #1890FF Primary</h2>  
-<h2 style="color:#13c2c2">■ #13C2C2 Info</h2>
-<h2 style="color:#52c418">■ #52C418 Success</h2>
-<h2 style="color:#faad14">■ #FAAD14 Warn</h2>
-<h2 style="color:#f5222c">■ #F5222C Danger</h2>
+- ![#1890FF](https://placehold.it/15/1890FF/000000?text=+) `#1890FF Primary`
+- ![#13C2C2](https://placehold.it/15/13C2C2/000000?text=+) `#13C2C2 Info`
+- ![#52C418](https://placehold.it/15/52C418/000000?text=+) `#52C418 Success`
+- ![#FAAD14](https://placehold.it/15/FAAD14/000000?text=+) `#FAAD14 Warn`
+- ![#F5222C](https://placehold.it/15/F5222C/000000?text=+) `#FAAD14 Danger`
 
 > ## Text color
 
-<p style="color:#ffffff">■ #FFFFFF gray-0</p>
-<p style="color:#fafafa">■ #FAFAFA gray-1</p>
-<p style="color:#f5f5f5">■ #F5F5F5 gray-2</p>
-<p style="color:#e8e8e8">■ #E8E8E8 gray-3</p>
-<p style="color:#d9d9d9">■ #D9D9D9 gray-4</p>
-<p style="color:#bfbfbf">■ #BFBFBF gray-5</p>
-<p style="color:#8c8c8c">■ #8C8C8C gray-6</p>
-<p style="color:#595959">■ #595959 gray-7</p>
-<p style="color:#262626">■ #262626 gray-8</p>
-<p style="color:#000000">■ #000000 gray-9</p>
+- ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) `#FFFFFF gray-0`
+- ![#FAFAFA](https://placehold.it/15/FAFAFA/000000?text=+) `#FAFAFA gray-1`
+- ![#F5F5F5](https://placehold.it/15/F5F5F5/000000?text=+) `#F5F5F5 gray-2`
+- ![#E8E8E8](https://placehold.it/15/E8E8E8/000000?text=+) `#E8E8E8 gray-3`
+- ![#D9D9D9](https://placehold.it/15/D9D9D9/000000?text=+) `#D9D9D9 gray-4`
+- ![#BFBFBF](https://placehold.it/15/BFBFBF/000000?text=+) `#BFBFBF gray-5`
+- ![#8C8C8C](https://placehold.it/15/8C8C8C/000000?text=+) `#8C8C8C gray-6`
+- ![#595959](https://placehold.it/15/595959/000000?text=+) `#595959 gray-7`
+- ![#262626](https://placehold.it/15/262626/000000?text=+) `#262626 gray-8`
+- ![#000000](https://placehold.it/15/000000/000000?text=+) `#000000 gray-9`
 
 > ## Front color prefix <b style="color:">fc-</span>
 
