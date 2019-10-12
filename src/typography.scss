@@ -18,6 +18,15 @@
   &-bolder {
     font-weight: bolder;
   }
+  &-uppercase {
+    text-transform: uppercase;
+  }
+  &-lowercase {
+    text-transform: lowercase;
+  }
+  &-capitalize {
+    text-transform: capitalize;
+  }
 }
 
 .g-no-wrap {
@@ -30,6 +39,9 @@
   }
   &-around {
     justify-content: space-around;
+  }
+  &-envenly {
+    justify-content: space-evenly;
   }
 }
 
