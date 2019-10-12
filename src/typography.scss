@@ -1,0 +1,92 @@
+// Text align
+.g-text {
+  &-left {
+    text-align: left;
+  }
+  &-center {
+    text-align: center;
+  }
+  &-right {
+    text-align: right;
+  }
+  &-justify {
+    text-align: justify;
+  }
+  &-bold {
+    font-weight: bold;
+  }
+  &-bolder {
+    font-weight: bolder;
+  }
+}
+
+.g-no-wrap {
+  white-space: nowrap;
+}
+
+.g-flex-space {
+  &-between {
+    justify-content: space-between;
+  }
+  &-around {
+    justify-content: space-around;
+  }
+}
+
+.g-fw {
+  &-bold {
+    font-weight: bold;
+  }
+  &-bolder {
+    font-weight: bolder;
+  }
+}
+
+.g-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.g-fs {
+  &-12 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  &-14 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  &-16 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &-20 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  &-24 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  &-30 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  &-38 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  &-46 {
+    font-size: 46px;
+    line-height: 54px;
+  }
+  &-56 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+  &-56 {
+    font-size: 56px;
+    line-height: 76px;
+  }
+}

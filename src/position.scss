@@ -1,0 +1,37 @@
+// Position
+.g-pos {
+  &-relative {
+    position: relative;
+  }
+  &-absolute {
+    position: absolute;
+  }
+  &-fixed {
+    position: fixed;
+  }
+}
+
+// Alignmen
+.g-float {
+  &-left {
+    float: left;
+  }
+  &-right {
+    float: right;
+  }
+}
+
+// Vertical alignment
+.g-va {
+  &-top {
+    vertical-align: top;
+  }
+
+  &-middle {
+    vertical-align: middle;
+  }
+
+  &-bottom {
+    vertical-align: bottom;
+  }
+}

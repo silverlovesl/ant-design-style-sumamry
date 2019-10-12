@@ -1,0 +1,40 @@
+{
+  "name": "ant-design-style-sumamry",
+  "version": "1.0.0",
+  "description": "ant design style summary and enhance",
+  "main": "index.js",
+  "author": "Andy Xia",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silverlovesl/ant-design-style-sumamry.git"
+  },
+  "scripts": {
+    "gulp": "./node_modules/gulp/bin/gulp.js",
+    "start": "gulp"
+  },
+  "keywords": [
+    "ant-design",
+    "css",
+    "helper"
+  ],
+  "dependencies": {
+    "autoprefixer": "^9.0.1",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-util": "^3.0.8"
+  },
+  "lint-staged": {
+    "*.{js,json,md,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

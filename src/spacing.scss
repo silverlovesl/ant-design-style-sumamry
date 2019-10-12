@@ -1,0 +1,100 @@
+$xxs: 0.25rem;
+$xs: 0.5rem;
+$sm: 1rem;
+$md: 1.5rem;
+$lg: 2rem;
+$xl: 2.5rem;
+$xxl: 3rem;
+
+$size-list: 'none' 'xxs' 'xs' 'sm' 'md' 'lg' 'xl' 'xxl';
+$size-value: (
+  none: 0px,
+  xxs: $xxs,
+  xs: $xs,
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl,
+  xxl: $xxl,
+);
+@each $key in $size-list {
+  // Margin
+  .g-ma-#{$key} {
+    margin: map-get($size-value, $key);
+  }
+  .g-mt-#{$key} {
+    margin-top: map-get($size-value, $key);
+  }
+  .g-mr-#{$key} {
+    margin-right: map-get($size-value, $key);
+  }
+  .g-mb-#{$key} {
+    margin-bottom: map-get($size-value, $key);
+  }
+  .g-ml-#{$key} {
+    margin-left: map-get($size-value, $key);
+  }
+  .g-mx-#{$key} {
+    margin-left: map-get($size-value, $key);
+    margin-right: map-get($size-value, $key);
+  }
+  .g-my-#{$key} {
+    margin-top: map-get($size-value, $key);
+    margin-bottom: map-get($size-value, $key);
+  }
+
+  // Padding
+  .g-pa-#{$key} {
+    padding: map-get($size-value, $key);
+  }
+  .g-pt-#{$key} {
+    padding-top: map-get($size-value, $key);
+  }
+  .g-pr-#{$key} {
+    padding-right: map-get($size-value, $key);
+  }
+  .g-pb-#{$key} {
+    padding-bottom: map-get($size-value, $key);
+  }
+  .g-pl-#{$key} {
+    padding-left: map-get($size-value, $key);
+  }
+  .g-px-#{$key} {
+    padding-left: map-get($size-value, $key);
+    padding-right: map-get($size-value, $key);
+  }
+  .g-py-#{$key} {
+    padding-top: map-get($size-value, $key);
+    padding-bottom: map-get($size-value, $key);
+  }
+}
+
+.g-full {
+  width: 100%;
+  height: 100%;
+  &-width {
+    width: 100%;
+  }
+  &-height {
+    height: 100%;
+  }
+}
+
+// Display
+.g-dis {
+  &-block {
+    display: block;
+  }
+  &-inline {
+    display: inline;
+  }
+  &-inline-block {
+    display: inline-block;
+  }
+  &-flex {
+    display: flex;
+  }
+  &-inline-flex {
+    display: inline-flex;
+  }
+}
