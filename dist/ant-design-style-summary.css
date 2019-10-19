@@ -1,46 +1,46 @@
-.g-fc-primary {
+.fc-primary {
   color: #1890ff; }
 
-.g-fc-info {
+.fc-info {
   color: #13c2c2; }
 
-.g-fc-success {
+.fc-success {
   color: #52c418; }
 
-.g-fc-warn {
+.fc-warn {
   color: #faad14; }
 
-.g-fc-danger {
+.fc-danger {
   color: #f5222c; }
 
-.g-fc-gray-0 {
+.fc-gray-0 {
   color: #ffffff; }
 
-.g-fc-gray-1 {
+.fc-gray-1 {
   color: #fafafa; }
 
-.g-fc-gray-2 {
+.fc-gray-2 {
   color: #f5f5f5; }
 
-.g-fc-gray-3 {
+.fc-gray-3 {
   color: #e8e8e8; }
 
-.g-fc-gray-4 {
+.fc-gray-4 {
   color: #d9d9d9; }
 
-.g-fc-gray-5 {
+.fc-gray-5 {
   color: #bfbfbf; }
 
-.g-fc-gray-6 {
+.fc-gray-6 {
   color: #8c8c8c; }
 
-.g-fc-gray-7 {
+.fc-gray-7 {
   color: #595959; }
 
-.g-fc-gray-8 {
+.fc-gray-8 {
   color: #262626; }
 
-.g-fc-gray-9 {
+.fc-gray-9 {
   color: #000000; }
 
 .bc-primary {
@@ -491,6 +491,15 @@
 .g-text-bolder {
   font-weight: bolder; }
 
+.g-text-uppercase {
+  text-transform: uppercase; }
+
+.g-text-lowercase {
+  text-transform: lowercase; }
+
+.g-text-capitalize {
+  text-transform: capitalize; }
+
 .g-no-wrap {
   white-space: nowrap; }
 
@@ -499,6 +508,9 @@
 
 .g-flex-space-around {
   justify-content: space-around; }
+
+.g-flex-space-envenly {
+  justify-content: space-evenly; }
 
 .g-fw-bold {
   font-weight: bold; }
