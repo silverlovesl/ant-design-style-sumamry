@@ -47,6 +47,54 @@
     color: $gray-9;
   }
 }
+// フォント色定義強制
+.force-fc {
+  &-primary {
+    color: $primary-color !important;
+  }
+  &-info {
+    color: $info-color !important;
+  }
+  &-success {
+    color: $success-color !important;
+  }
+  &-warn {
+    color: $warn-color !important;
+  }
+  &-danger {
+    color: $danger-color !important;
+  }
+  &-gray-0 {
+    color: $gray-0 !important;
+  }
+  &-gray-1 {
+    color: $gray-1 !important;
+  }
+  &-gray-2 {
+    color: $gray-2 !important;
+  }
+  &-gray-3 {
+    color: $gray-3 !important;
+  }
+  &-gray-4 {
+    color: $gray-4 !important;
+  }
+  &-gray-5 {
+    color: $gray-5 !important;
+  }
+  &-gray-6 {
+    color: $gray-6 !important;
+  }
+  &-gray-7 {
+    color: $gray-7 !important;
+  }
+  &-gray-8 {
+    color: $gray-8 !important;
+  }
+  &-gray-9 {
+    color: $gray-9 !important;
+  }
+}
 
 // 背景色定義
 .bc {
@@ -64,5 +112,24 @@
   }
   &-danger {
     background-color: $danger-color;
+  }
+}
+
+// 背景色定義
+.force-bc {
+  &-primary {
+    background-color: $primary-color !important;
+  }
+  &-info {
+    background-color: $info-color !important;
+  }
+  &-success {
+    background-color: $success-color !important;
+  }
+  &-warn {
+    background-color: $warn-color !important;
+  }
+  &-danger {
+    background-color: $danger-color !important;
   }
 }

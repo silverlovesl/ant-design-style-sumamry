@@ -98,6 +98,14 @@ html { font-size: 16px; }
 .fc-gray-9
 ```
 
+> ## Force front color prefix <b style="color:">force-fc-</span>
+```css
+.force-fc-primary
+{
+  color:#1890FF !important;
+}
+```
+
 > ## Background color prefix  <b style="color:">bc-</span>
 
 ```css
