@@ -43,6 +43,51 @@
 .fc-gray-9 {
   color: #000000; }
 
+.force-fc-primary {
+  color: #1890ff !important; }
+
+.force-fc-info {
+  color: #13c2c2 !important; }
+
+.force-fc-success {
+  color: #52c418 !important; }
+
+.force-fc-warn {
+  color: #faad14 !important; }
+
+.force-fc-danger {
+  color: #f5222c !important; }
+
+.force-fc-gray-0 {
+  color: #ffffff !important; }
+
+.force-fc-gray-1 {
+  color: #fafafa !important; }
+
+.force-fc-gray-2 {
+  color: #f5f5f5 !important; }
+
+.force-fc-gray-3 {
+  color: #e8e8e8 !important; }
+
+.force-fc-gray-4 {
+  color: #d9d9d9 !important; }
+
+.force-fc-gray-5 {
+  color: #bfbfbf !important; }
+
+.force-fc-gray-6 {
+  color: #8c8c8c !important; }
+
+.force-fc-gray-7 {
+  color: #595959 !important; }
+
+.force-fc-gray-8 {
+  color: #262626 !important; }
+
+.force-fc-gray-9 {
+  color: #000000 !important; }
+
 .bc-primary {
   background-color: #1890ff; }
 
@@ -57,6 +102,21 @@
 
 .bc-danger {
   background-color: #f5222c; }
+
+.force-bc-primary {
+  background-color: #1890ff !important; }
+
+.force-bc-info {
+  background-color: #13c2c2 !important; }
+
+.force-bc-success {
+  background-color: #52c418 !important; }
+
+.force-bc-warn {
+  background-color: #faad14 !important; }
+
+.force-bc-danger {
+  background-color: #f5222c !important; }
 
 .g-pos-relative {
   position: relative; }
